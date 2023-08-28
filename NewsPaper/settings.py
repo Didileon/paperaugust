@@ -171,15 +171,15 @@ ACCOUNT_FORMS = {"signup": "accounts.forms.CustomSignupForm"}
 SITE_URL = 'http://127.0.0.1:8000'
 
 ADMINS = (
-    ('admin', 'yogapoint@yandex.ru'),
+    ('admin', '*****@yandex.ru'),
 )
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.yandex.ru'
 EMAIL_PORT = 465
-EMAIL_HOST_USER = 'darleont'
-EMAIL_HOST_PASSWORD = 'bbanmyrgwfqkhgzc'
+EMAIL_HOST_USER = '****'
+EMAIL_HOST_PASSWORD = '****'
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
 EMAIL_TIMEOUT = 60
@@ -192,8 +192,8 @@ APSCHEDULER_DATETIME_FORMAT = "N j, Y, f:s a"
 
 APSCHEDULER_RUN_NOW_TIMEOUT = 25
 
-CELERY_BROKER_URL = 'redis://default:KHDxMldb0OxMGNF9aiwriuFnkNypH1nF@redis-14798.c246.us-east-1-4.ec2.cloud.redislabs.com:14798'
-CELERY_RESULT_BACKEND = 'redis://default:KHDxMldb0OxMGNF9aiwriuFnkNypH1nF@redis-14798.c246.us-east-1-4.ec2.cloud.redislabs.com:14798'
+CELERY_BROKER_URL = 'redis://default:****@redis-14798.c246.us-east-1-4.ec2.cloud.redislabs.com:14798'
+CELERY_RESULT_BACKEND = 'redis://default:****@redis-14798.c246.us-east-1-4.ec2.cloud.redislabs.com:14798'
 CELERY_ACCEPT_CONTENT = ['application/json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
